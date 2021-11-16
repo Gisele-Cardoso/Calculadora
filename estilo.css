@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: 'Montserrat', sans-serif;
+  background: #ccdbfd;
+  height: 100%;
+  color: #012a4a;
+  text-align: center;
+  font-size: 15px;
+}
+
+.calculadora{
+  position: absolute;
+  background-color: #b6ccfe;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 15px;
+  padding: 15px;
+}
+
+.botao{
+  background-color: #e2eafc;
+  width: 50px;
+  height: 50px;
+  font-size: 25px;
+  cursor: pointer;
+  border: none;
+  margin: 2.5px;
+}
+
+.botao:hover{
+  background-color: #d7e3fc;
+}
+
+#resultado{
+  width: 210px;
+  background: white;
+  height: 30px;
+  margin: 5px;
+  font-size: 25px;
+  color: black;
+  text-align: right;
+  padding: 5px;
+}
